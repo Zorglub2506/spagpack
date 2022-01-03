@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_spagpack:/data/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_spagpack:/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <locked value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_spagpack:/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_spagpack:/%PLATFORM%/vehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+		<Item>
+			<filename>dlc_spagpack:/%PLATFORM%/models/cdimages/spagpack.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true" />
+			<disabled value="true" />
+			<persistent value="true" />
+		</Item>	
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>spagpack_AUTOGEN</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+        <Item>dlc_spagpack:/data/vehicles.meta</Item>
+        <Item>dlc_spagpack:/data/handling.meta</Item>
+        <Item>dlc_spagpack:/data/dlctext.meta</Item>	
+        <Item>dlc_spagpack:/%PLATFORM%/vehicles.rpf</Item>
+        <Item>dlc_spagpack:/%PLATFORM%/models/cdimages/spagpack.rpf</Item>      
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
